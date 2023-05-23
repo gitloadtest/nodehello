@@ -1,0 +1,95 @@
+{
+  "_from": "graphql-tools@^8.2.3",
+  "_id": "graphql-tools@8.3.20",
+  "_inBundle": false,
+  "_integrity": "sha512-x3VkXkaGyPaZu1G0Vr2x/7yxTiuTB6xpY3RbH2uTjBv01Z+985J3//B81fooTtEf2eySBiyPplMYwFmAybOIrQ==",
+  "_location": "/graphql-tools",
+  "_phantomChildren": {
+    "@graphql-tools/merge": "8.4.2",
+    "@graphql-tools/utils": "9.2.1",
+    "tslib": "2.5.2",
+    "value-or-promise": "1.0.12"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "graphql-tools@^8.2.3",
+    "name": "graphql-tools",
+    "escapedName": "graphql-tools",
+    "rawSpec": "^8.2.3",
+    "saveSpec": null,
+    "fetchSpec": "^8.2.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/graphql-tools/-/graphql-tools-8.3.20.tgz",
+  "_shasum": "d6b7ff46d30bf89b1963418fa481ee3326ac6fff",
+  "_spec": "graphql-tools@^8.2.3",
+  "_where": "/Users/tponnaganti/Desktop/repos/curation/hellonode",
+  "bugs": {
+    "url": "https://github.com/ardatan/graphql-tools/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@apollo/client": "~3.2.5 || ~3.3.0 || ~3.4.0 || ~3.5.0 || ~3.6.0 || ~3.7.0",
+    "@graphql-tools/schema": "^9.0.18",
+    "tslib": "^2.4.0"
+  },
+  "deprecated": false,
+  "description": "Useful tools to create and manipulate GraphQL schemas.",
+  "exports": {
+    ".": {
+      "require": {
+        "types": "./typings/index.d.cts",
+        "default": "./cjs/index.js"
+      },
+      "import": {
+        "types": "./typings/index.d.ts",
+        "default": "./esm/index.js"
+      },
+      "default": {
+        "types": "./typings/index.d.ts",
+        "default": "./esm/index.js"
+      }
+    },
+    "./*": {
+      "require": {
+        "types": "./typings/*.d.cts",
+        "default": "./cjs/*.js"
+      },
+      "import": {
+        "types": "./typings/*.d.ts",
+        "default": "./esm/*.js"
+      },
+      "default": {
+        "types": "./typings/*.d.ts",
+        "default": "./esm/*.js"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "homepage": "https://github.com/ardatan/graphql-tools#readme",
+  "license": "MIT",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "name": "graphql-tools",
+  "optionalDependencies": {
+    "@apollo/client": "~3.2.5 || ~3.3.0 || ~3.4.0 || ~3.5.0 || ~3.6.0 || ~3.7.0"
+  },
+  "peerDependencies": {
+    "graphql": "^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardatan/graphql-tools.git",
+    "directory": "packages/graphql-tools"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "typescript": {
+    "definition": "typings/index.d.ts"
+  },
+  "typings": "typings/index.d.ts",
+  "version": "8.3.20"
+}
